@@ -1,4 +1,3 @@
-import java.util.*
 
 fun main(args: Array<String>) {
 
@@ -6,4 +5,7 @@ fun main(args: Array<String>) {
         println(iterador)
     }
 
+    val array = Ejercicio2(10){ Random.nextInt(50, 250)}
+
+    array.array.forEach { println(it) }
 }
