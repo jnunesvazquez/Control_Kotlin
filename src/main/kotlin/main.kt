@@ -1,3 +1,9 @@
+import java.util.*
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+
+    for (iterador in Ejercicio1(11).array){
+        println(iterador)
+    }
+
 }
